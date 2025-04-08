@@ -1,5 +1,50 @@
 @extends('layout')
 @section('content')
+
+<style>
+    body {
+        font-family: sans-serif;
+    }
+
+    .container {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    form div {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 6px 12px;
+        margin-right: 10px;
+    }
+
+    a {
+        color: blue;
+    }
+</style>
+
 <div class="container">
     <h2>Create New Post</h2>
     
